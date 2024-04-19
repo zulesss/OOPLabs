@@ -3,8 +3,9 @@
 using namespace std;
 
 class Sphere {
-    
+
     static int instanceCount;
+
 public:
     string objectName; 
     double radius;
@@ -16,6 +17,7 @@ public:
 class Logger {
     
     std::string log; 
+
 public:
     void addRecord(Sphere& sphere);
     void saveLog();
