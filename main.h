@@ -6,6 +6,7 @@ private:
     int hours;
     int minutes;
     int seconds;
+
 public:
     Time();
     Time(int h, int m, int s) ;

@@ -8,12 +8,12 @@ Time::Time(const Time& src)
     hours = src.hours;
     minutes = src.minutes;
     seconds = src.seconds;
-    cout<<"Copying constructor \n";
+    cout << "Copying constructor \n";
 }
 
 Time::~Time()
 {
-    cout<<"Destructor. \n";
+    cout << "Destructor. \n";
 }
 
 Time::Time() : hours(0), minutes(0), seconds(0)
