@@ -10,6 +10,7 @@ private:
     double height;
     vector<char> sides;
     double volume(){return length * width * height;}
+
 public:
     Prism(double l = 0, double w = 0, double h = 0): length(l), width(w), height(h){}
     ~Prism(){}

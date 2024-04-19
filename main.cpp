@@ -32,6 +32,7 @@ istream& operator>>(istream& in, Prism& p)
     in >> p.length >> p.width >> p.height;
     return in;
 }
+
 int main()
 {
     Prism prism1;
