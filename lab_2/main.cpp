@@ -3,6 +3,11 @@
 
 using namespace std;
 
+const int addPatient = 1;
+const int showPatients = 2;
+const int healPatients = 3;
+const int exit = 4;
+
 void Doctor::setName(string n)
 {
     name = n;
@@ -28,7 +33,7 @@ void Doctor::setExperience(int e)
     experience = e;
 }
 
-int Doctor::getExperience()
+int Doctor::getExperience() const
 {
     return experience;
 }
@@ -88,10 +93,7 @@ void mainLogic(Doctor doctor)
             <<"\n 4.Exit \n";
         int choise;
         cin >> choise;
-        const int addPatient = 1;
-        const int showPatients = 2;
-        const int healPatients = 3;
-        const int exit = 4;
+
         string patient;
 
         switch (choise)
@@ -114,6 +116,8 @@ void mainLogic(Doctor doctor)
         case exit:
             isWorking = false;
             break;
+        default:
+            ;
         }
     }
 }

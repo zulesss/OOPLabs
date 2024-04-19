@@ -14,13 +14,14 @@ private:
     string specialty;
     string hospital;
     vector<string> patients;
+    
 public:
     void setName(string n);
     string getName();
     void setAge(int a);
     int getAge();
     void setExperience(int e);
-    int getExperience();
+    int getExperience() const;
     void setSpecialty(string s);
     string getSpecialty();
     void setHospital(string h);
