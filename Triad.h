@@ -2,7 +2,6 @@
 
 class Triad
 {
-
 protected:
     int x, y, z;
 public:
