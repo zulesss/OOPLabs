@@ -5,5 +5,5 @@ using namespace std;
 
 void Cylinder::area()
 {
-    cout << "Cylinder area: " << 2*PI*radius*(radius+height);
+    cout << "Cylinder area: " << 2 * PI * radius*(radius+height);
 }
